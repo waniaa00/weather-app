@@ -58,7 +58,7 @@ export default function Weather() {
   function getTemperatureMessage(temperature: number, unit: string): string {
     if (unit == "C") {
       if (temperature < 0) {
-        return `It's freezing at ${temperature}°C. Bundle uo!`;
+        return `It's freezing at ${temperature}°C. Bundle up!`;
       } else if (temperature < 10) {
         return `It's quite cold at ${temperature}°. Wear warm clothes.`;
       } else if (temperature < 20) {
